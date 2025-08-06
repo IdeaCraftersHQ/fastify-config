@@ -1,0 +1,64 @@
+{
+  "name": "@ideacrafters/fastify-config",
+  "version": "1.0.0",
+  "description": "Dynamic configuration management plugin for Fastify",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "vitest --run",
+    "test:coverage": "vitest run --coverage",
+    "lint": "eslint . --ext .ts",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "fastify",
+    "fastify-plugin",
+    "config",
+    "configuration",
+    "dynamic",
+    "redis",
+    "settings",
+    "ideacrafters"
+  ],
+  "author": "IdeaCrafters",
+  "license": "MIT",
+  "homepage": "https://github.com/IdeaCraftersHQ/fastify-config#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IdeaCraftersHQ/fastify-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/IdeaCraftersHQ/fastify-config/issues"
+  },
+  "dependencies": {
+    "fastify-plugin": "^4.5.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@typescript-eslint/eslint-plugin": "^6.13.0",
+    "@typescript-eslint/parser": "^6.13.0",
+    "@vitest/coverage-v8": "^1.0.0",
+    "eslint": "^8.54.0",
+    "fastify": "^4.25.0",
+    "ioredis": "^5.3.2",
+    "typescript": "^5.3.0",
+    "vitest": "^1.0.0"
+  },
+  "peerDependencies": {
+    "fastify": "^4.0.0",
+    "ioredis": "^5.0.0"
+  },
+  "peerDependenciesMeta": {
+    "ioredis": {
+      "optional": true
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=16"
+  }
+}
