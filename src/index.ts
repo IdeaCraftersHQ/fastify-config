@@ -54,7 +54,7 @@ async function fastifyDynamicConfig(
 }
 
 export default fp(fastifyDynamicConfig, {
-  fastify: '4.x',
+  fastify: '>=4.0.0',
   name: 'fastify-config'
 });
 

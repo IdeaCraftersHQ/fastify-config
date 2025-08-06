@@ -13,6 +13,7 @@ Dynamic configuration management plugin for Fastify applications. Manage runtime
 - **Zero Dependencies**: Only requires fastify-plugin
 - **Production Ready**: Comprehensive error handling and logging
 - **Namespace Support**: Organize configs with dot notation
+- **Fastify 4 & 5 Compatible**: Works with both current and next major versions
 
 ## Installation
 

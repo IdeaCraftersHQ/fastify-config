@@ -50,7 +50,7 @@ async function fastifyDynamicConfig(fastify, options) {
     logger.info({ store: storeType }, 'fastify-config plugin initialized');
 }
 exports.default = (0, fastify_plugin_1.default)(fastifyDynamicConfig, {
-    fastify: '4.x',
+    fastify: '>=4.0.0',
     name: 'fastify-config'
 });
 __exportStar(require("./types"), exports);

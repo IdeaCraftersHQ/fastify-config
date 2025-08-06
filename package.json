@@ -1,6 +1,6 @@
 {
   "name": "@ideacrafters/fastify-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dynamic configuration management plugin for Fastify",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -47,7 +47,7 @@
     "vitest": "^1.0.0"
   },
   "peerDependencies": {
-    "fastify": "^4.0.0",
+    "fastify": "^4.0.0 || ^5.0.0",
     "ioredis": "^5.0.0"
   },
   "peerDependenciesMeta": {
